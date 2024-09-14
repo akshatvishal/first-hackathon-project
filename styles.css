@@ -1,0 +1,236 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    /* color: transparent; */
+    font-family: Tahoma;
+    font-size: 16px;
+    
+    
+  }
+  
+  form h1 {
+    /* margin: 1em auto; */
+    text-align: left;
+    margin-left: 6rem;
+  }
+
+  form p{
+    margin-left: 3rem;
+  }
+
+  input::placeholder{
+    color: black;
+  }
+  
+  select{
+    background-color: #ffffff27;
+    color: black;
+    margin: 0;
+    border: 0;
+    border-radius: 2rem;
+  }
+  
+  form {
+    position: fixed;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 8rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(55px);
+    box-sizing: border-box;
+    box-shadow:0px 0px 2rem -0.5rem #fff;
+    background-color: rgba(0, 0, 0, 0.192);
+
+  }
+  
+  fieldset {
+    border: none;
+    padding: 1rem 2rem  ;
+    border-bottom: 3px solid #e0e0e0;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 2rem 0 0 0;
+    width: 10rem;
+    min-height: 2em;
+    
+    
+  }
+  
+  
+  input, textarea {
+    background-color: #ffffff27;
+    margin: none;
+    border: none;
+    border-radius: 2rem;
+    color: black;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  #submit{
+    border: none;
+    margin-top: -3rem;
+    margin-left: 22rem;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: #65f962;
+}
+
+  
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+  .inline{
+    display: inline; 
+  }
+
+  .background{
+    z-index: -5;
+  }
+  
+  #comp1{
+    top: -10vh;
+    position: fixed;
+    width: 100vw;
+    animation: a1 20s infinite;
+  }
+  #comp2{
+    position: fixed;
+    width: 100vw;;
+    animation: a2 20s infinite;
+  }
+  #comp3{
+    position: fixed;
+    width: 100vw;
+    animation: a3 20s infinite;
+  }
+  #comp4{
+    position: fixed;
+    width: 100vw;
+    animation: a4 20s infinite;
+  }
+  #comp5{
+    
+    position: fixed;
+    width: 100vw;
+    animation: a5 20s infinite;
+  }
+
+  @keyframes a1{
+    0%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 1;
+    }
+    20.001%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+ }
+}
+
+@keyframes a2{
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    20.001%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+ }
+    40.001%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes a3{
+    0%{
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    40.001%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+ }
+    60.001%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes a4{
+    0%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    60.001%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+ }
+    80.001%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes a5{
+    0%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    80.001%{
+        opacity: 1;
+    }
+    99.999%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
